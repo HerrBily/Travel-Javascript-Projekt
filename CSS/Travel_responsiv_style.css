@@ -1,0 +1,681 @@
+
+@media (min-width: 320px) and (max-width: 699px) {
+    /*
+        Travel Nav
+    
+    */
+    
+    header {
+        background-image: url(../img/header_img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        position: relative;
+        
+    }
+
+    .navi_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        margin: 0 auto;
+    }
+
+    .nav_item{
+        padding: 3%;
+    }
+
+    #menü {
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        border: 0;
+    }
+    
+    #menü .div1 {
+        width: 55px;
+        height: 5px;
+        background-color:#fff;
+        margin: 6px 0;
+    }
+
+    h1 {
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        border: #fff solid 2px;
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+
+/*
+
+    Travel Home Main
+
+*/
+
+
+    .about_us {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        padding-top: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .about_us img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .about_us h2 {
+        color: #fff;
+        font-size: 2rem;
+        padding-top: 6rem;
+    }
+
+    .about_us p {
+        color: #fff;
+        font-size: 1.1rem;
+        padding-top: 3rem;
+        width: 18rem;
+    }
+
+    .text_wrap {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 6rem;
+        justify-content: center;
+        max-width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .wrapper li {
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+    }
+
+    .wrapper li img {
+        width: 90%;
+    }
+
+    .overlay__nav {
+        display: none;
+        flex-direction: row;
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+
+/*
+
+    Travel Gewinnspiel Main
+
+*/
+
+
+    .wingame_img_cnt {
+        background-image: url(../img/spa.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .wingame {
+        position: relative;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .wingame img {
+        width: 19rem;
+    }
+
+
+    form {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+
+    .form_backg {
+        background-color: #dbaeb7;
+        margin-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .form_backg h3 {
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .form_item {
+        width: 75%;
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_half input {
+        width: 15rem;
+        height: 2.2rem;
+        font-size: 1rem;
+    }
+
+
+    .form_checkb {
+        display: flex;
+        padding-top: 3rem;
+        width: 16rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .form_txt {
+        line-height: 1.5rem;
+        padding-top: 2rem;
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 19rem;
+    }
+
+    #error_msg {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+        color: red;
+        text-align: center;
+    }
+
+    button {
+        margin-top: 4rem;
+        width: 9rem;
+        height: 2.3rem;
+        background-color: #dbaeb7;
+        border: 2px solid #000;
+        box-shadow: 0 1px 1px 1px;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+    }
+
+
+/*
+
+    Travel Top 2018 Main
+
+*/
+
+
+    .second_cnt {
+        display: block;
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .second_cnt h2 {
+        color: #fff;
+        font-size: 1.8rem;
+    }
+
+    .second_cnt p {
+        color: #fff;
+        font-size: 1.1rem;
+        padding-top: 2rem;
+        line-height: 3rem;
+    }
+
+    .prev {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: calc(50% - 50px);
+        left: 5%;
+        color: #fff;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        cursor: pointer;
+        z-index: 2;
+        font-size: 6rem;
+    }
+
+    .next {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: calc(50% - 50px);
+        right: 5%;
+        color: #fff;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        cursor: pointer;
+        z-index: 2;
+        font-size: 6rem;
+    }
+
+    .img_items img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .travel_blog {
+        background-color: #dbaeb7;
+        height: 100%;
+        display: block;
+        text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .travel_blog h3 {
+        font-size: 2rem;
+    }
+    
+    .travel_blog p {
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3rem;
+        line-height: 2rem;
+        width: 90%;
+        text-align: justify;
+    }
+
+
+}
+
+@media (min-width: 700px) and (max-width: 778px) {
+
+
+    .navi_list {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        padding: 11px;
+        margin: 0 auto;
+        width: 40rem;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%); 
+        margin: -1px;
+    } 
+
+    #menü {
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        border: 0;
+    }
+    
+    #menü .div1 {
+        width: 55px;
+        height: 5px;
+        background-color:#fff;
+        margin: 6px 0;
+    }
+    
+    #menü .div2 {
+        width: 55px;
+        height: 5px;
+        background-color: #fff ;
+        margin: 6px 0;
+    }
+    
+    #menü .div3 {
+        width: 55px;
+        height: 5px;
+        background-color: #fff ;
+        margin: 6px 0;
+    }
+
+    h1 {
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        border: #fff solid 2px;
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+/*
+
+    Travel Home Main
+
+*/
+
+    .overlay__nav {
+        display: none;
+        flex-direction: row;
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .text_wrap {
+        text-align: center;
+        padding-left: 0.5rem;
+    }
+
+/*
+
+    Travel Gewinnspiel Main
+
+*/
+
+
+    .wingame_img_cnt {
+        background-image: url(../img/spa.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .wingame {
+        position: relative;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .wingame img {
+        width: 19rem;
+    }
+
+
+    form {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+
+    .form_backg {
+        background-color: #dbaeb7;
+        margin-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .form_backg h3 {
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .form_item {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_half input {
+        width: 15rem;
+        height: 2.2rem;
+        font-size: 1rem;
+    }
+
+
+    .form_checkb {
+        display: flex;
+        padding-top: 3rem;
+        width: 16rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .form_txt {
+        line-height: 1.5rem;
+        padding-top: 2rem;
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 19rem;
+    }
+
+    #error_msg {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+        color: red;
+        text-align: center;
+    }
+
+    button {
+        margin-top: 4rem;
+        width: 9rem;
+        height: 2.3rem;
+        background-color: #dbaeb7;
+        border: 2px solid #000;
+        box-shadow: 0 1px 1px 1px;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+    }
+
+/*
+
+    Travel Top 2018 Main
+
+*/
+
+
+    .prev {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: calc(50% - 50px);
+        left: 5%;
+        color: #fff;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        cursor: pointer;
+        z-index: 2;
+        font-size: 6rem;
+    }
+
+    .next {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: calc(50% - 50px);
+        right: 5%;
+        color: #fff;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        cursor: pointer;
+        z-index: 2;
+        font-size: 6rem;
+    }
+
+    .img_items img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media (min-width: 779px) and (max-width: 990px) {
+
+/*
+
+    Travel Gewinnspiel Main
+
+*/
+
+
+    .wingame_img_cnt {
+        background-image: url(../img/spa.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .wingame {
+        position: relative;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .wingame img {
+        width: 19rem;
+    }
+
+
+    form {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+
+    .form_backg {
+        background-color: #dbaeb7;
+        margin-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .form_backg h3 {
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .form_item {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form_half input {
+        width: 15rem;
+        height: 2.2rem;
+        font-size: 1rem;
+    }
+
+
+    .form_checkb {
+        display: flex;
+        padding-top: 3rem;
+        width: 16rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .form_txt {
+        line-height: 1.5rem;
+        padding-top: 2rem;
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 19rem;
+    }
+
+    #error_msg {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+        color: red;
+        text-align: center;
+    }
+
+    button {
+        margin-top: 4rem;
+        width: 9rem;
+        height: 2.3rem;
+        background-color: #dbaeb7;
+        border: 2px solid #000;
+        box-shadow: 0 1px 1px 1px;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+
+
+  

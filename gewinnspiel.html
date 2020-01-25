@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel</title>
+    <link rel="stylesheet" href="CSS/Travel_style.css">
+    <link rel="stylesheet" href="CSS/Travel_responsiv_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
+</head>
+
+<body class="">
+    <header>
+        <nav class="j-nav nav">
+            <ul class="navi_list cnt">
+                <li class="nav_item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="active">Gewinnspiel</a>
+                </li>
+                <li class="nav_item">
+                    <a href="top2018.html">Top 2018</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>Legendary<br />Travel</h1>
+    </header>
+
+    <main>
+
+        <div class="wingame_img_cnt">
+            <div class="wingame">
+                <img src="img/Gewinnspiel.png" alt="Ein Gewinnspiel für 3 Tage Wellnessurlaub">
+            </div>
+        </div>
+
+        <div class="form_backg">
+            <h3>Teilnahmeformular ausfüllen und gewinnen!</h3>
+            <form action="http://www.google.com" method="GET" id="myform">
+                <div class="form_item">
+                    <div class="form_half">
+                        <label for="vorname">Vorname</label>
+                        <input type="text" name="vorname" id="vorname">
+                    </div>
+
+                    <div class="form_half">
+                        <label for="nachname">Nachname</label>
+                        <input type="text" name="nachname" id="nachname">
+                    </div>
+                </div>
+
+                <div class="form_item">
+                    <div class="form_half">
+                        <label for="email">E-Mail</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="form_half">
+                        <label for="datum">Startdatum</label>
+                        <input type="date" name="datum" id="datum">
+                    </div>
+                </div>
+
+                <div class="form_checkb">
+                    <input type="checkbox" name="teilnahme" value="Teilnahme" id="teilnahme">
+                    <p>Ich bestätige die Teilnahmebedingungen</p>
+                </div>
+
+                <div class="form_txt">
+                    <p>Die Teilnahme am Gewinnspiel setzt die Zustimmung zu den Teilnahmebedingungen voraus. Mit der
+                        Teilnahme
+                        an
+                        dem Gewinnspiel akzeptiert der Teilnehmer diese Teilnahmebedingungen. Legendary Travel behält
+                        sich
+                        das
+                        Recht
+                        vor, bei Verstoß gegen diese Teilnahmebedingungen, Teilnehmer vom Gewinnspiel auszuschließen.
+                    </p>
+                </div>
+
+                <div id="error_msg"></div>
+                <button type="submit" name="button">Teilnehmen</button>
+            </form>
+        </div>
+
+        <div class="to_top">
+            <a href="#" id="back-to-top">
+                <img src="img/pfeil.png" alt="Ein Pfeil nach Oben">
+                Back to Top!
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_impress">
+            <a href="#">Impressum</a>
+        </div>
+    </footer>
+
+    <script src="JS/Travel.js"></script>
+    <script src="JS/Travel_form.js"></script>
+
+</body>
+
+</html>
